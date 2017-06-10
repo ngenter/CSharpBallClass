@@ -1,1 +1,6 @@
 C:\dev\csharp\BallClasses\BallClasses\bin\Debug\BallClasses.exe.config
+C:\dev\csharp\BallClasses\BallClasses\bin\Debug\BallClasses.exe
+C:\dev\csharp\BallClasses\BallClasses\bin\Debug\BallClasses.pdb
+C:\dev\csharp\BallClasses\BallClasses\obj\Debug\BallClasses.csprojResolveAssemblyReference.cache
+C:\dev\csharp\BallClasses\BallClasses\obj\Debug\BallClasses.exe
+C:\dev\csharp\BallClasses\BallClasses\obj\Debug\BallClasses.pdb
