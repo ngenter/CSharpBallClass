@@ -36,12 +36,6 @@ namespace BallClasses
             Console.WriteLine(littlePurple.GetTimesThrown());
 
             Console.ReadKey();
-
-
-
-
-
-
         }
     }
 }
