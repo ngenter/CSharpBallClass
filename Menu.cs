@@ -9,7 +9,7 @@ namespace BallClasses
 {
     class Menu
     {
-        public static void Intro()
+        /*public static void Intro()
         {
             Console.WriteLine("0 - Exit program");
             Console.WriteLine("1 - Create a random ball");  // Need to work on this
@@ -55,11 +55,9 @@ namespace BallClasses
                     Console.WriteLine("Invalid choice");
                     Intro();
                     break;
-
-                    
                     
             }
-        }
+        }*/
 
         
         

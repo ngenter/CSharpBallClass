@@ -15,12 +15,30 @@ namespace BallClasses
             // Write some code in your Main method to create a few balls, throw them around a few times, 
             // pop a few, and try to throw them again, and print out the number of times that the balls have been thrown. (Popped balls shouldn't have changed.)
 
-            List<string> BallList = new List<string>();
-            Console.WriteLine("Ball Throwing Program...\n");
+            Ball bigRed = new Ball(new Color(255, 0, 0), 5);
+            Ball littlePurple = new Ball(new Color(255, 0, 255), 3 );
 
-            Menu.Intro();
+            bigRed.Throw();
+            bigRed.Throw();
+            bigRed.Throw();
+            Console.WriteLine(bigRed.GetTimesThrown());
 
-            
+            bigRed.Throw();
+            bigRed.Throw();
+            Console.WriteLine(bigRed.GetTimesThrown());
+
+            littlePurple.Throw();
+            littlePurple.Throw();
+            Console.WriteLine(littlePurple.GetTimesThrown());
+
+            littlePurple.Pop();
+            littlePurple.Throw();
+            Console.WriteLine(littlePurple.GetTimesThrown());
+
+            Console.ReadKey();
+
+
+
 
 
 
